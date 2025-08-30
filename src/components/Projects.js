@@ -1,3 +1,8 @@
+import prakriti from "../images/prakritihome.png";
+import evolvere from "../images/evolverehome.png";
+import wiki from "../images/wikihome.png";
+import typing from "../images/typinghome'.png";
+
 function Projects() {
   return (
     <section id="projects" className="projects">
@@ -19,7 +24,7 @@ function Projects() {
 
   <div className="project-img">
     <img
-      src="https://placehold.co/600x400/22c55e/FFFFFF?text=Prakriti+Club+Website"
+      src={prakriti}
       alt="Prakriti Club Website"
     />
     <div className="project-overlay">
@@ -80,7 +85,7 @@ function Projects() {
 
   <div className="project-img">
     <img
-      src="https://placehold.co/600x400/16a34a/FFFFFF?text=Evolvere+Society+Website"
+      src={evolvere}
       alt="Evolvere Society Website"
        href="https://evolverenitdgp.netlify.app/"
 
@@ -179,7 +184,7 @@ function Projects() {
         <div className="project-card" data-aos="fade-up" data-aos-duration="800">
           <div className="project-img">
             <img
-              src="https://placehold.co/600x400/2563eb/FFFFFF?text=Typing+Speed+Test"
+              src={typing}
               alt="Typing Speed Test"
             />
             <div className="project-overlay">
@@ -267,7 +272,7 @@ function Projects() {
         >
           <div className="project-img">
             <img
-              src="https://placehold.co/600x400/f59e0b/FFFFFF?text=Wikipedia+Search"
+              src={wiki}
               alt="Wikipedia Search Application"
             />
             <div className="project-overlay">

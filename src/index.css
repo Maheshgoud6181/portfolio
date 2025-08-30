@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -33,9 +33,61 @@ code {
             color: var(--dark);
             background-color: var(--light);
             overflow-x: hidden;
-            scroll-behavior: smooth;
-        }
+            scroll-behavior: smooth; 
+            /* background-image: url('https://sdmntpraustraliaeast.oaiusercontent.com/files/00000000-efe8-61fa-9a6d-e060dbf7e14a/raw?se=2025-08-23T10%3A03%3A48Z&sp=r&sv=2024-08-04&sr=b&scid=da0cc58e-3a52-5fb5-b122-a221f394c897&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-22T19%3A48%3A49Z&ske=2025-08-23T19%3A48%3A49Z&sks=b&skv=2024-08-04&sig=aEQZwWDREx%2BFu%2BuGKhgJfepAO5w2%2B%2BS465O1Ucik4Bs%3D'); */
+        /* }  */
 
+
+
+
+        body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --secondary: #10b981;
+  --accent: #f59e0b;
+  --dark: #1f2937;
+  --light: #f9fafb;
+  --gray: #6b7280;
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--dark);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  /* DALL·E style soft pastel gradient background */
+  background: 
+    radial-gradient(circle at top left, #e9d5ff 25%, transparent 40%),
+    radial-gradient(circle at bottom right, #bfdbfe 25%, transparent 40%),
+    linear-gradient(120deg, #e9d5ff, #bfdbfe, #fde68a);
+  background-attachment: fixed;
+}
+
+
+
+        
         /* Custom Cursor */
         .cursor-dot {
             width: 8px;
@@ -72,6 +124,11 @@ code {
             top: 0;
             z-index: 1000;
             transition: var(--transition);
+               background: 
+    radial-gradient(circle at top left, #e9d5ff 25%, transparent 40%),
+    radial-gradient(circle at bottom right, #bfdbfe 25%, transparent 40%),
+    linear-gradient(120deg, #e9d5ff, #bfdbfe, #fde68a);
+  background-attachment: fixed;
         }
 
         .navbar-brand {
@@ -380,6 +437,11 @@ code {
         /* About Section - Redesigned */
         .about {
             background: white;
+              background: 
+    radial-gradient(circle at top left, #e9d5ff 25%, transparent 40%),
+    radial-gradient(circle at bottom right, #bfdbfe 25%, transparent 40%),
+    linear-gradient(120deg, #e9d5ff, #bfdbfe, #fde68a);
+  background-attachment: fixed;
         }
 
         .about-container {
@@ -428,6 +490,25 @@ code {
             border-radius: 12px;
             text-align: center;
             transition: var(--transition);
+
+
+
+                          background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.3) 100%
+  ); /* soft glass gradient */
+ 
+
+
+ backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  border-radius: 20px;
+ 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2),
+              inset 0 1px 10px rgba(255, 255, 255, 0.4); /* inner glow */
+  border: 1px solid rgba(255, 255, 255, 0.4); /* subtle glass border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .stat-box:hover {
@@ -454,6 +535,27 @@ code {
             border-radius: 12px;
             border-left: 4px solid var(--primary);
             transition: var(--transition);
+
+
+
+
+
+                          background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.3) 100%
+  ); /* soft glass gradient */
+ 
+
+
+ backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  border-radius: 20px;
+ 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2),
+              inset 0 1px 10px rgba(255, 255, 255, 0.4); /* inner glow */
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .education-item:hover {
@@ -479,6 +581,11 @@ code {
         /* Skills Section */
         .skills {
             background: var(--light);
+              background: 
+    radial-gradient(circle at top left, #e9d5ff 25%, transparent 40%),
+    radial-gradient(circle at bottom right, #bfdbfe 25%, transparent 40%),
+    linear-gradient(120deg, #e9d5ff, #bfdbfe, #fde68a);
+  background-attachment: fixed;
         }
 
         .skills-container {
@@ -498,6 +605,24 @@ code {
             padding: 2rem;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             transition: var(--transition);
+
+
+                          background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.3) 100%
+  ); /* soft glass gradient */
+ 
+
+
+ backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  border-radius: 20px;
+ 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2),
+              inset 0 1px 10px rgba(255, 255, 255, 0.4); /* inner glow */
+  border: 1px solid rgba(255, 255, 255, 0.4); /* subtle glass border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .skill-category:hover {
@@ -535,6 +660,11 @@ code {
         /* Projects Section */
         .projects {
             background: white;
+              background: 
+    radial-gradient(circle at top left, #e9d5ff 25%, transparent 40%),
+    radial-gradient(circle at bottom right, #bfdbfe 25%, transparent 40%),
+    linear-gradient(120deg, #e9d5ff, #bfdbfe, #fde68a);
+  background-attachment: fixed;
         }
 
         .projects-filter {
@@ -576,6 +706,28 @@ code {
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             transition: var(--transition);
             position: relative;
+
+
+
+
+              background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.3) 100%
+  ); /* soft glass gradient */
+ 
+
+
+ backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  border-radius: 20px;
+ 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2),
+              inset 0 1px 10px rgba(255, 255, 255, 0.4); /* inner glow */
+  border: 1px solid rgba(255, 255, 255, 0.4); /* subtle glass border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
         }
 
         .project-card:hover {
@@ -676,12 +828,20 @@ code {
         /* Experience Section */
         .experience {
             background: var(--light);
+              background: 
+    radial-gradient(circle at top left, #e9d5ff 25%, transparent 40%),
+    radial-gradient(circle at bottom right, #bfdbfe 25%, transparent 40%),
+    linear-gradient(120deg, #e9d5ff, #bfdbfe, #fde68a);
+  background-attachment: fixed;
         }
 
         .timeline {
             position: relative;
             max-width: 1200px;
             margin: 0 auto;
+
+
+            
         }
 
         .timeline::after {
@@ -700,6 +860,8 @@ code {
             position: relative;
             width: 50%;
             box-sizing: border-box;
+
+            
         }
 
         .timeline-item:nth-child(odd) {
@@ -717,6 +879,23 @@ code {
             border-radius: 12px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             transition: var(--transition);
+
+                          background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.3) 100%
+  ); /* soft glass gradient */
+ 
+
+
+ backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  border-radius: 20px;
+ 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2),
+              inset 0 1px 10px rgba(255, 255, 255, 0.4); /* inner glow */
+  border: 1px solid rgba(255, 255, 255, 0.4); /* subtle glass border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .timeline-content:hover {
@@ -752,6 +931,11 @@ code {
         /* Achievements Section */
         .achievements {
             background: white;
+              background: 
+    radial-gradient(circle at top left, #e9d5ff 25%, transparent 40%),
+    radial-gradient(circle at bottom right, #bfdbfe 25%, transparent 40%),
+    linear-gradient(120deg, #e9d5ff, #bfdbfe, #fde68a);
+  background-attachment: fixed;
         }
 
         .achievements-container {
@@ -766,6 +950,27 @@ code {
             margin-bottom: 2rem;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
             transition: var(--transition);
+
+
+             background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.3) 100%
+  ); /* soft glass gradient */
+  backdrop-filter: blur(14px) saturate(150%);
+  -webkit-backdrop-filter: blur(14px) saturate(150%);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2),
+              inset 0 1px 10px rgba(255, 255, 255, 0.4); /* inner glow */
+  border: 1px solid rgba(255, 255, 255, 0.4); /* subtle glass border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+
+
+
+  
         }
 
         .achievement-card:hover {
@@ -1028,3 +1233,13 @@ code {
         body, html {
   cursor: none;
 }
+
+
+
+
+
+
+
+
+
+
