@@ -28,6 +28,33 @@ function Achievements() {
           </p>
         </div>
 
+
+
+
+      <div
+  className="achievement-card"
+  data-aos="fade-up"
+  data-aos-duration="800"
+  data-aos-delay="300"
+>
+  <h3>
+    <i className="fas fa-university"></i> Departmental Website Project
+  </h3>
+  <p>
+    Designed and developed the <b>official Biotechnology Department website of 
+    NIT Durgapur</b>, delivering a professional platform that highlights 
+    departmental activities, academic resources, and student achievements.
+  </p>
+</div>
+
+
+
+
+
+
+
+
+
         <div
           className="achievement-card"
           data-aos="fade-up"

@@ -2,6 +2,8 @@ import prakriti from "../images/prakritihome.png";
 import evolvere from "../images/evolverehome.png";
 import wiki from "../images/wikihome.png";
 import typing from "../images/typinghome'.png";
+import mcp from "../images/mcphome.png";
+import student from "../images/studenthome.png";
 
 function Projects() {
   return (
@@ -130,6 +132,52 @@ function Projects() {
 
 
 
+<div className="project-card" data-aos="fade-up" data-aos-duration="800">
+  <div className="project-img">
+    <img
+      src={mcp} 
+      alt="Eleven Labs Tech Update Agent"
+    />
+    <div className="project-overlay">
+      <div className="project-links">
+        <a
+          href="https://elevenlabs.io" 
+          className="project-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-link"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div className="project-info">
+    <h3>Tech Update Agent (Eleven Labs + Twilio)</h3>
+    <p>
+      Built a conversational AI agent using Eleven Labs and Twilio that makes 
+      outbound calls to share recent tech updates in a friendly human-like voice.
+    </p>
+    <ul>
+      <li>Integrated <b>Twilio</b> for outbound phone calls with a purchased trial number</li>
+      <li>Configured <b>Eleven Labs Conversational AI</b> with a custom agent</li>
+      <li>Implemented outbound call flow delivering AI, programming, and cybersecurity news</li>
+      <li>Used <b>MCP server</b> setup with Cursor IDE for local configuration</li>
+    </ul>
+    <div className="project-tags">
+      <span className="project-tag">Python</span>
+      <span className="project-tag">Eleven Labs API</span>
+      <span className="project-tag">Twilio</span>
+      <span className="project-tag">MCP</span>
+      <span className="project-tag">Cursor IDE</span>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 <div
           className="project-card"
           data-aos="fade-up"
@@ -138,7 +186,7 @@ function Projects() {
         >
           <div className="project-img">
             <img
-              src="https://placehold.co/600x400/6366f1/FFFFFF?text=Student+Performance"
+              src={student}
               alt="Student Performance Prediction"
             />
             <div className="project-overlay">
